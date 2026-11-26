@@ -1,61 +1,47 @@
 {
-  "updated": "2026-11-26T09:02:34.054314+00:00",
+  "updated": "2026-11-26T09:31:30.898215+00:00",
   "ai": [
     {
       "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
-      "published": "2026-11-25T22:44:32+00:00",
-      "title_pl": "S&P rozważa obniżenie ratingu kredytowego firmy Nvidia",
-      "summary_pl": "Agencja S&P może obniżyć rating kredytowy Nvidii do poziomu AA-, czyli czwartej najwyższej oceny. Powodem są obawy dotyczące zarządzania oraz ryzyka związanego z kluczowymi osobami w firmie."
+      "published": "2026-11-25T22:44:32+00:00"
     },
     {
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "published": "2026-11-25T20:03:27+00:00",
-      "title_pl": "OpenAI łączy funkcje ChatGPT, co może przyspieszyć osiąganie limitów użycia",
-      "summary_pl": "OpenAI wprowadzi jeden wspólny licznik zużycia w ChatGPT w ramach łączenia usług Chat i Work. Z tego powodu osoby intensywnie korzystające z narzędzia mogą szybciej natrafić na limity."
+      "published": "2026-11-25T20:03:27+00:00"
     },
     {
       "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
       "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-      "published": "2026-11-25T19:54:57+00:00",
-      "title_pl": "Szef Nvidii Jensen Huang naruszył kodeks postępowania firmy",
-      "summary_pl": "Jensen Huang złamał kodeks postępowania Nvidii, co może przynieść konsekwencje dla firmy. Większość takich kodeksów odzwierciedla kulturę korporacyjną, o czym pracownicy mogą nie zapomnieć."
+      "published": "2026-11-25T19:54:57+00:00"
     },
     {
       "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
       "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-      "published": "2026-11-25T19:44:24+00:00",
-      "title_pl": "Szef Anthropic odrzuca oskarżenia o oddanie kontroli nad AI",
-      "summary_pl": "Dario Amodei z Anthropic uważa za absurdalne zarzuty rywali, że zwolennikiem jest oddania ludzkiej kontroli na rzecz AI. Dzieje się to w czasie, gdy firmy AI coraz bardziej automatyzują własne badania i rozwój modeli."
+      "published": "2026-11-25T19:44:24+00:00"
     },
     {
       "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "published": "2026-11-25T18:11:46+00:00",
-      "title_pl": "Nowy Jork zakazuje sprzedaży zabawek z AI dla dzieci",
-      "summary_pl": "Stan Nowy Jork wprowadził pięcioletni zakaz sprzedaży zabawek wykorzystujących chatboty AI. Decyzja wynika z badań wykazujących uchybienia w bezpieczeństwie, w tym narażenie dzieci na niestosowne treści i ryzyko dla rozwoju emocjonalnego."
+      "published": "2026-11-25T18:11:46+00:00"
     },
     {
       "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
       "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
       "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "published": "2026-11-25T17:35:58+00:00",
-      "title_pl": "Prokuratorzy sprzeciwiają się licytacji prywatnych czatów użytkowników Character.AI",
-      "summary_pl": "Prokuratorzy stanowi zakwestionowali plan sprzedaży majątku Character.AI w ramach upadłości, który obejmuje prywatne dane ponad 21 milionów kont w USA. Zgłoszone obawy dotyczą także danych należących do 2,1 miliona niepełnoletnich użytkowników."
+      "published": "2026-11-25T17:35:58+00:00"
     },
     {
       "title": "How data centers are driving a US natural-gas boom",
       "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
       "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
-      "published": "2026-11-25T17:00:00+00:00",
-      "title_pl": "Centra danych napędzają wzrost zapotrzebowania na gaz ziemny w USA",
-      "summary_pl": "Rozwój sztucznej inteligencji sprawia, że rosnące zapotrzebowanie na prąd podtrzymuje zależność od gazu ziemnego. Mimo że technicznie możliwe jest wykorzystanie innych źródeł energii, sztuczna inteligencja mocno napędza popyt na ten surowiec."
+      "published": "2026-11-25T17:00:00+00:00"
     }
   ],
   "tech": [
