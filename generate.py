@@ -149,7 +149,10 @@ def summarize(category, items, client):
 
 
 def main():
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    client = genai.Client(
+        api_key=os.environ["GEMINI_API_KEY"],
+        http_options=types.HttpOptions(timeout=60_000),
+    )
     data = {"updated": datetime.now(timezone.utc).isoformat()}
 
     for category in SOURCES:
