@@ -1,11 +1,19 @@
+import html
 import json
+import os
+import re
+import time
 from datetime import datetime, timedelta, timezone
 from time import mktime
 
 import feedparser
 import requests
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
-# Skąd pobieramy newsy (kanały RSS) dla każdej kategorii
+load_dotenv()
+
 SOURCES = {
     "ai": [
         "https://techcrunch.com/category/artificial-intelligence/feed/",
@@ -23,10 +31,18 @@ SOURCES = {
 
 HOURS = 48       # z ilu ostatnich godzin bierzemy newsy
 MAX_ITEMS = 7    # ile newsów na kategorię
+MODEL = "gemini-3.5-flash"   # to samo, co w test_gemini.py
 BROWSER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 )
+
+
+def clean_text(text):
+    """Usuwa znaczniki HTML i nadmiar spacji z opisu."""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def download_feed(url):
@@ -61,7 +77,7 @@ def fetch_category(category):
                 items.append({
                     "title": entry.get("title", ""),
                     "link": entry.get("link", ""),
-                    "summary": entry.get("summary", "")[:300],
+                    "summary": clean_text(entry.get("summary", ""))[:500],
                     "published": published.isoformat(),
                 })
                 found += 1
@@ -75,12 +91,71 @@ def fetch_category(category):
     return items[:MAX_ITEMS]
 
 
+def summarize(category, items, client):
+    """Dodaje do każdego newsa polski tytuł i streszczenie."""
+    if not items:
+        return items
+
+    numbered = []
+    for number, item in enumerate(items):
+        numbered.append(
+            f"{number}. TYTUŁ: {item['title']}\n   OPIS: {item['summary']}"
+        )
+
+    prompt = (
+        "Jesteś redaktorem codziennego serwisu o technologii. "
+        "Dla każdej z poniższych wiadomości napisz po polsku krótki tytuł "
+        "(maksymalnie 12 słów) oraz streszczenie w 1-2 zdaniach, "
+        "prostym językiem, zrozumiałym dla zwykłego użytkownika. "
+        "Opieraj się wyłącznie na podanych informacjach i niczego od siebie "
+        "nie dodawaj. Zwróć wynik jako JSON: listę obiektów w formacie "
+        '{"id": numer, "tytul": "...", "streszczenie": "..."}.\n\n'
+        + "\n".join(numbered)
+    )
+
+    results = None
+    max_attempts = 4
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                ),
+            )
+            results = json.loads(response.text)
+            break
+        except Exception as error:
+            print(
+                f"  Próba {attempt}/{max_attempts} nie powiodła się "
+                f"({category}): {str(error)[:120]}"
+            )
+            if attempt < max_attempts:
+                time.sleep(10 * attempt)
+
+    if results is None:
+        print(f"  Kategoria {category} bez streszczeń.")
+        return items
+
+    for result in results:
+        index = result.get("id")
+        if isinstance(index, int) and 0 <= index < len(items):
+            items[index]["title_pl"] = result.get("tytul", "")
+            items[index]["summary_pl"] = result.get("streszczenie", "")
+
+    return items
+
+
 def main():
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     data = {"updated": datetime.now(timezone.utc).isoformat()}
 
     for category in SOURCES:
         print(f"Kategoria: {category}")
-        data[category] = fetch_category(category)
+        items = fetch_category(category)
+        data[category] = summarize(category, items, client)
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
