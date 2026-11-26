@@ -2,6 +2,7 @@ import html
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime, timedelta, timezone
 from time import mktime
@@ -31,7 +32,13 @@ SOURCES = {
 
 HOURS = 48       # z ilu ostatnich godzin bierzemy newsy
 MAX_ITEMS = 7    # ile newsów na kategorię
-MODEL = "gemini-3.5-flash"   # to samo, co w test_gemini.py
+# Modele próbowane po kolei. Nazwy skopiuj z Google AI Studio.
+MODELS = [
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+]
+ATTEMPTS_PER_MODEL = 2
 BROWSER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
@@ -91,16 +98,49 @@ def fetch_category(category):
     return items[:MAX_ITEMS]
 
 
-def summarize(category, items, client):
-    """Dodaje do każdego newsa polski tytuł i streszczenie."""
-    if not items:
-        return items
 
+def ask_gemini(prompt, client):
+    """Próbuje kolejno modeli z listy MODELS. Zwraca wynik albo None."""
+    for model in MODELS:
+        for attempt in range(1, ATTEMPTS_PER_MODEL + 1):
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json"
+                    ),
+                )
+                return json.loads(response.text)
+            except Exception as error:
+                message = str(error)
+                print(
+                    f"  {model}, próba {attempt}/{ATTEMPTS_PER_MODEL}: "
+                    f"{message[:100]}"
+                )
+                if "NOT_FOUND" in message or "404" in message or "429" in message:
+                    break  # taki model nie istnieje, przechodzimy do następnego
+                if attempt < ATTEMPTS_PER_MODEL:
+                    time.sleep(10)
+    return None
+
+
+def summarize_all(all_items, client):
+    """Jedno zapytanie dla wszystkich kategorii. Zwraca True, jeśli się udało."""
     numbered = []
-    for number, item in enumerate(items):
-        numbered.append(
-            f"{number}. TYTUŁ: {item['title']}\n   OPIS: {item['summary']}"
-        )
+    index = {}
+    number = 0
+
+    for category, items in all_items.items():
+        for position, item in enumerate(items):
+            numbered.append(
+                f"{number}. TYTUŁ: {item['title']}\n   OPIS: {item['summary']}"
+            )
+            index[number] = (category, position)
+            number += 1
+
+    if not numbered:
+        return True
 
     prompt = (
         "Jesteś redaktorem codziennego serwisu o technologii. "
@@ -113,39 +153,22 @@ def summarize(category, items, client):
         + "\n".join(numbered)
     )
 
-    results = None
-    max_attempts = 4
-
-    for attempt in range(1, max_attempts + 1):
-        try:
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json"
-                ),
-            )
-            results = json.loads(response.text)
-            break
-        except Exception as error:
-            print(
-                f"  Próba {attempt}/{max_attempts} nie powiodła się "
-                f"({category}): {str(error)[:120]}"
-            )
-            if attempt < max_attempts:
-                time.sleep(10 * attempt)
-
-    if results is None:
-        print(f"  Kategoria {category} bez streszczeń.")
-        return items
+    results = ask_gemini(prompt, client)
+    if not isinstance(results, list):
+        return False
 
     for result in results:
-        index = result.get("id")
-        if isinstance(index, int) and 0 <= index < len(items):
-            items[index]["title_pl"] = result.get("tytul", "")
-            items[index]["summary_pl"] = result.get("streszczenie", "")
+        if not isinstance(result, dict):
+            continue
+        key = result.get("id")
+        if isinstance(key, int) and key in index:
+            category, position = index[key]
+            all_items[category][position]["title_pl"] = result.get("tytul", "")
+            all_items[category][position]["summary_pl"] = result.get(
+                "streszczenie", ""
+            )
 
-    return items
+    return True
 
 
 def main():
@@ -153,12 +176,18 @@ def main():
         api_key=os.environ["GEMINI_API_KEY"],
         http_options=types.HttpOptions(timeout=60_000),
     )
-    data = {"updated": datetime.now(timezone.utc).isoformat()}
 
+    all_items = {}
     for category in SOURCES:
         print(f"Kategoria: {category}")
-        items = fetch_category(category)
-        data[category] = summarize(category, items, client)
+        all_items[category] = fetch_category(category)
+
+    if not summarize_all(all_items, client):
+        print("Nie udało się wygenerować streszczeń. Nie zapisuję pliku.")
+        sys.exit(1)
+
+    data = {"updated": datetime.now(timezone.utc).isoformat()}
+    data.update(all_items)
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
