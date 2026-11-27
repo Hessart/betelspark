@@ -33,6 +33,7 @@ SOURCES = {
 HOURS = 48       # z ilu ostatnich godzin bierzemy newsy
 MAX_ITEMS = 7    # ile newsów na kategorię
 # Modele próbowane po kolei. Nazwy skopiuj z Google AI Studio.
+SKIP_WORDS = ["the download", "newsletter"]   # pomijamy biuletyny
 MODELS = [
     "gemini-3.6-flash",
     "gemini-3.5-flash-lite",
@@ -77,6 +78,9 @@ def fetch_category(category):
         for entry in entries:
             parsed = entry.get("published_parsed") or entry.get("updated_parsed")
             if not parsed:
+                continue
+            title = entry.get("title", "").lower()
+            if any(word in title for word in SKIP_WORDS):
                 continue
 
             published = datetime.fromtimestamp(mktime(parsed), timezone.utc)
@@ -147,6 +151,7 @@ def summarize_all(all_items, client):
         "Dla każdej z poniższych wiadomości napisz po polsku krótki tytuł "
         "(maksymalnie 12 słów) oraz streszczenie w 1-2 zdaniach, "
         "prostym językiem, zrozumiałym dla zwykłego użytkownika. "
+        "Pisz poprawną polszczyzną, bez powtórzeń. "
         "Opieraj się wyłącznie na podanych informacjach i niczego od siebie "
         "nie dodawaj. Zwróć wynik jako JSON: listę obiektów w formacie "
         '{"id": numer, "tytul": "...", "streszczenie": "..."}.\n\n'
