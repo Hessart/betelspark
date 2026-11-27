@@ -1,47 +1,49 @@
+[Wersja polska](README.pl.md)
+
 # BetelSpark
 
-Codzienny skrót najważniejszych wiadomości ze świata AI, technologii i kosmosu. Po polsku, w trzech kliknięciach.
+A daily digest of the most important news in AI, tech and space, summarized in Polish and available in three taps.
 
-**Demo:** https://hessart.github.io/betelspark/
+**Live demo:** https://hessart.github.io/betelspark/ (the interface and summaries are in Polish)
 
-![Zrzut ekranu aplikacji](docs/screenshot.png)
+![App screenshot](docs/screenshot.png)
 
-## Jak to działa
+## How it works
 
 ```mermaid
 flowchart LR
-    A[Kanały RSS] --> B[generate.py]
+    A[RSS feeds] --> B[generate.py]
     B --> C[Gemini API]
     C --> B
     B --> D[data.json]
-    E[GitHub Actions - codziennie] --> B
+    E[GitHub Actions - daily] --> B
     D --> F[GitHub Pages - index.html]
-    F --> G[Telefon - PWA]
+    F --> G[Phone - PWA]
 ```
 
-1. GitHub Actions codziennie uruchamia skrypt `generate.py`.
-2. Skrypt pobiera kanały RSS (AI, Tech, Kosmos) i wybiera wpisy z ostatnich 48 godzin.
-3. Jedno zbiorcze zapytanie do Gemini API streszcza i tłumaczy wiadomości na polski.
-4. Wynik trafia do `data.json`, który bot automatycznie zapisuje w repozytorium.
-5. Strona hostowana na GitHub Pages wczytuje `data.json`. Można ją zainstalować na ekranie głównym telefonu (PWA).
+1. GitHub Actions runs `generate.py` every day on a schedule.
+2. The script fetches RSS feeds for three categories (AI, Tech, Space) and keeps entries from the last 48 hours.
+3. A single batched request to the Gemini API summarizes and translates the news into Polish.
+4. The result is saved to `data.json`, which a bot commits back to the repository.
+5. A static page on GitHub Pages loads `data.json`. It can be installed on a phone's home screen as a PWA.
 
-## Technologie
+## Tech stack
 
 - Python: `feedparser`, `requests`, `google-genai`
-- GitHub Actions (harmonogram, sekrety) i GitHub Pages
-- HTML, CSS i JavaScript bez frameworków
-- PWA: manifest i service worker
-- Koszt utrzymania: 0 zł
+- GitHub Actions (scheduling, secrets) and GitHub Pages
+- Plain HTML, CSS and JavaScript, no frameworks
+- PWA: web app manifest and service worker
+- Running cost: zero
 
-## Wnioski z budowy projektu
+## Lessons learned
 
-- **Limity darmowego API.** Pierwsza wersja wysyłała trzy zapytania dziennie z wielokrotnym ponawianiem, co wyczerpało dzienny limit (błąd 429). Rozwiązanie: jedno zbiorcze zapytanie na dobę.
-- **Awarie usług zewnętrznych.** Model bywa przeciążony (503). Skrypt próbuje kolejnych modeli z listy i robi przerwy między próbami.
-- **Ochrona danych.** Gdy streszczenie się nie uda, skrypt kończy się błędem i nie nadpisuje poprzedniego `data.json`, dzięki czemu aplikacja nigdy nie traci dobrych danych.
-- **Bezpieczeństwo kluczy.** Klucz API jest w GitHub Secrets, a lokalnie w pliku `.env` poza repozytorium.
-- **Certyfikaty SSL.** Problem z niektórymi źródłami rozwiązany przez pobieranie kanałów biblioteką `requests`, bez wyłączania weryfikacji certyfikatów.
+- **Free API limits.** The first version sent three requests per day with multiple retries, which exhausted the daily quota (HTTP 429). Fix: one batched request per day.
+- **Third-party outages.** The model is sometimes overloaded (HTTP 503). The script tries a list of fallback models and waits between attempts.
+- **Protecting good data.** If summarization fails, the script exits with an error and does not overwrite the previous `data.json`, so the app never loses its last good data.
+- **Secret handling.** The API key lives in GitHub Secrets, and locally in a `.env` file kept out of the repository.
+- **SSL certificates.** An expired-certificate error from some feeds was solved by fetching them with `requests` instead of disabling certificate verification.
 
-## Uruchomienie lokalne
+## Run locally
 
 ```bash
 git clone https://github.com/Hessart/betelspark.git
@@ -51,29 +53,29 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Utwórz plik `.env` z kluczem do Gemini API (darmowy w Google AI Studio):
+Create a `.env` file with a Gemini API key (free in Google AI Studio):
 
 ```
-GEMINI_API_KEY=twoj_klucz
+GEMINI_API_KEY=your_key
 ```
 
-Wygeneruj dane i uruchom stronę:
+Generate the data and serve the page:
 
 ```bash
 python generate.py
 python -m http.server 8000
 ```
 
-Strona będzie dostępna pod adresem http://localhost:8000.
+The site will be available at http://localhost:8000.
 
-## Ograniczenia
+## Limitations
 
-- Streszczenia generuje AI i mogą zawierać błędy. Każda wiadomość ma link do źródła.
-- Darmowy poziom API ma limity i czasem bywa niedostępny.
+- Summaries are AI-generated and may contain mistakes. Every item links to its source.
+- The free API tier has usage limits and is occasionally unavailable.
 
-## Plany
+## Roadmap
 
-- Polskie źródła i kategoria „Polska"
-- Filtrowanie biuletynów i powtórzeń tego samego tematu
-- Osobne trackery postępów dla długich tematów
-- Powiadomienia
+- Polish news sources and a "Poland" category
+- Filtering newsletters and duplicate stories
+- Progress trackers for long-running topics
+- Notifications
