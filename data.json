@@ -1,135 +1,177 @@
 {
-  "updated": "2026-11-26T09:31:30.898215+00:00",
+  "updated": "2026-11-27T08:54:48.346818+00:00",
   "ai": [
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "published": "2026-11-26T19:03:54+00:00",
+      "title_pl": "Nvidia wstrzymuje dostawy układów scalonych do Azji Południowo-Wschodniej",
+      "summary_pl": "Nvidia nakazała partnerom wstrzymanie dostaw serwerów do Malezji, Singapuru, Tajlandii i Indonezji. Jest to związane z zaostrzaniem przez USA działań mających na celu powstrzymanie trafiania chipów AI do Chin."
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "published": "2026-11-26T15:00:00+00:00",
+      "title_pl": "Grand Theft Auto VI odnosi ogromny sukces rynkowy",
+      "summary_pl": "Tworzona z dużą starannością gra wideo stała się jedną z najbardziej udanych premiery w historii branży rozrywkowej. Doszło do tego tego samego dnia, w którym firma Anthropic weszła na rynek publiczny."
+    },
+    {
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "link": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest…",
+      "published": "2026-11-26T12:10:00+00:00",
+      "title_pl": "Dzisiejsze wydanie newslettera The Download o technologii",
+      "summary_pl": "Biuletyn informacyjny przedstawia najnowsze wydarzenia ze świata technologii, w tym nową generację bionicznych dłoni. Nowe protezy pozwalają użytkownikom na odczuwanie dotyku."
+    },
+    {
+      "title": "The next generation of bionic hands is here—and they can feel",
+      "link": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+      "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects…",
+      "published": "2026-11-26T08:59:00+00:00",
+      "title_pl": "Nowa generacja bionicznych dłoni pozwala odczuwać dotyk",
+      "summary_pl": "Avi Davidson przetestował nową protezę dłoni, która jest połączona z nerwami w jego przedramieniu. Dzięki niej może odczuwać nacisk i po latach ponownie chwytać delikatne przedmioty."
+    },
     {
       "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
       "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
-      "published": "2026-11-25T22:44:32+00:00"
+      "published": "2026-11-25T21:44:32+00:00",
+      "title_pl": "S&P rozważa obniżenie ratingu kredytowego firmy Nvidia",
+      "summary_pl": "Agencja ratingowa S&P może obniżyć rating kredytowy spółki Nvidia do poziomu AA-. Działanie to wynika z ryzyka dotyczącego zarządzania oraz roli kluczowych osób w firmie."
     },
     {
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "published": "2026-11-25T20:03:27+00:00"
+      "published": "2026-11-25T19:03:27+00:00",
+      "title_pl": "OpenAI łączy funkcje Chat i Work w usłudze ChatGPT",
+      "summary_pl": "OpenAI wprowadzi jeden wspólny licznik zużycia w usłudze ChatGPT po połączeniu opcji Chat i Work. W efekcie osoby bardzo intensywnie korzystające z narzędzia mogą szybciej osiągnąć limity użycia."
     },
     {
       "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
       "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
       "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-      "published": "2026-11-25T19:54:57+00:00"
-    },
-    {
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-      "published": "2026-11-25T19:44:24+00:00"
-    },
-    {
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "published": "2026-11-25T18:11:46+00:00"
-    },
-    {
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "published": "2026-11-25T17:35:58+00:00"
-    },
-    {
-      "title": "How data centers are driving a US natural-gas boom",
-      "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
-      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
-      "published": "2026-11-25T17:00:00+00:00"
+      "published": "2026-11-25T18:54:57+00:00",
+      "title_pl": "Jensen Huang naruszył kodeks postępowania w firmie Nvidia",
+      "summary_pl": "Szef Nvidii Jensen Huang naruszył wewnętrzny kodeks postępowania obowiązujący w firmie. Zdarzenie to może mieć konsekwencje dla kultury korporacyjnej przedsiębiorstwa."
     }
   ],
   "tech": [
     {
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required […]",
-      "published": "2026-11-26T00:04:34+00:00"
+      "title": "Netflix’s coziest show has made a very quiet return",
+      "link": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
+      "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best […]",
+      "published": "2026-11-26T20:00:00+00:00",
+      "title_pl": "Cichy powrót jednego z seriali na platformie Netflix",
+      "summary_pl": "Stale rozrastająca się oferta serwisu Netflix utrudnia użytkownikom śledzenie wszystkich nowości. Platforma oprócz filmów i seriali oferuje obecnie także programy na żywo, reality show oraz gry."
     },
     {
-      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-      "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it […]",
-      "published": "2026-11-25T23:56:44+00:00"
+      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
+      "link": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
+      "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks […]",
+      "published": "2026-11-26T18:00:00+00:00",
+      "title_pl": "Zegarek Garmin Forerunner 265S przeceniony do 300 dolarów",
+      "summary_pl": "Zegarek Garmin Forerunner 265S trafił na promocję w najniższej cenie w tym roku. Model ten dobrze pasuje na mniejsze nadgarstki i posiada ekran dotykowy OLED zapewniający dobry czas pracy baterii."
     },
     {
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
-      "published": "2026-11-25T21:51:26+00:00"
+      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+      "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
+      "published": "2026-11-26T16:07:00+00:00",
+      "title_pl": "MacBook Neo przeceniony o 100 dolarów z okazji Black Friday",
+      "summary_pl": "W kilku sklepach można kupić laptopa MacBook Neo taniej o 100 dolarów. Promocja obejmuje obie wersje pamięciowe oraz wszystkie cztery warianty kolorystyczne."
     },
     {
-      "title": "The Verge’s 2026 holiday gift guide for travelers",
-      "link": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
-      "summary": "Everyone has that traveler in their life. That person who feels more at home on a 14-hour train ride than a quiet Sunday on the couch. They speak multiple languages, have a gut like a goat, and make friends wherever they go. Whether they're your kindred spirit or the person you live vicariously through, one […]",
-      "published": "2026-11-25T21:48:00+00:00"
+      "title": "Android app developers will soon have to share their address publicly",
+      "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+      "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",
+      "published": "2026-11-26T16:06:24+00:00",
+      "title_pl": "Twórcy aplikacji na Androida będą musieli publicznie podawać adres",
+      "summary_pl": "Niezależni deweloperzy obawiają się o swoją prywatność z powodu nowych zasad Google. Od przyszłego roku będą oni musieli publicznie udostępnić swój numer telefonu i adres, aby spełnić wymogi Unii Europejskiej."
     },
     {
-      "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
-      "link": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "summary": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a […]",
-      "published": "2026-11-25T20:31:48+00:00"
+      "title": "The best Black Friday deals we’ve already found",
+      "link": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",
+      "published": "2026-11-26T15:55:00+00:00",
+      "title_pl": "Sklepy rozpoczęły wcześniejsze promocje z okazji Black Friday",
+      "summary_pl": "Sprzedawcy udostępniają pierwsze obniżki cen popularnych sprzętów technologicznych jeszcze przed Black Friday. Mimo rabatów ogólny wzrost cen powoduje, że promocje nie zawsze oznaczają rekordowo niskie kwoty."
     },
     {
-      "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
-      "link": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-      "summary": "Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds of lead azide today at the Iowa Army Ammunition Plant (IAAAP) in Middletown, Iowa. Videos of the detonation showed plumes of smoke several […]",
-      "published": "2026-11-25T19:45:51+00:00"
+      "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+      "link": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+      "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
+      "published": "2026-11-26T15:38:00+00:00",
+      "title_pl": "Sędzia blokuje wcześniejszy przegląd licencji stacji ABC przez FCC",
+      "summary_pl": "Amerykańska sędzia zablokowała Agencji FCC możliwość wcześniejszej weryfikacji licencji nadawczych stacji ABC. Stacja zarzuca agencji naruszenie wolności słowa oraz prowadzenie działań odwetowych."
     },
     {
-      "title": "1Password breach leaked customer names and emails, but not passwords",
-      "link": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "summary": "1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn't expose passwords or other information stored in customer vaults, but could put users at risk of phishing attempts, according to a post disclosing the incident. It's unclear how many users are affected. The password manager […]",
-      "published": "2026-11-25T19:10:15+00:00"
+      "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
+      "link": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
+      "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",
+      "published": "2026-11-26T15:00:00+00:00",
+      "title_pl": "Duże zniżki na abonamenty serwisów streamingowych z okazji Black Friday",
+      "summary_pl": "Z okazji Black Friday serwisy takie jak HBO Max, Apple TV i Hulu obniżyły ceny swoich subskrypcji. Niektóre platformy oferują rabaty sięgające ponad 50 procent."
     }
   ],
   "kosmos": [
     {
+      "title": "APOD: 2026 November 27 – The Moon Watchers",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+      "summary": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers […]",
+      "published": "2026-11-27T04:05:00+00:00",
+      "title_pl": "Astronomiczne Zdjęcie Dnia: Obserwatorzy Księżyca",
+      "summary_pl": "W ramach cyklu Astronomy Picture of the Day zaprezentowano nowe zdjęcie kosmosu z krótkim wyjaśnieniem astronoma. Wpis z 27 listopada 2026 roku nosi tytuł „Obserwatorzy Księżyca”."
+    },
+    {
+      "title": "Shivelyuch Socked In",
+      "link": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+      "summary": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+      "published": "2026-11-27T04:01:00+00:00",
+      "title_pl": "Wulkan Szywiełucz otoczony chmurami na Półwyspie Kamczatka",
+      "summary_pl": "Warstwa chmur owinęła zbocza wulkanu znajdującego się na Kamczatce. Mimo to jego aktywna kaldera szczytowa pozostała widoczna."
+    },
+    {
+      "title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
+      "link": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
+      "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United […] The post The ‘bare-knuckled’ future of life in space with Tim Marshall appeared first on SpaceNews .",
+      "published": "2026-11-26T16:53:00+00:00",
+      "title_pl": "Przyszłość życia w kosmosie w rozmowie z Timem Marshallem",
+      "summary_pl": "Dziennikarz Tim Marshall rozmawiał z Mike'iem Grussem o przyszłości życia w przestrzeni kosmicznej. W dyskusji poruszono m.in. temat wojny w Ukrainie jako sygnału alarmowego dla Europy."
+    },
+    {
       "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
       "summary": "APOD Science APOD APOD: 2026 November 26 – Eye… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Eye in […]",
-      "published": "2026-11-26T05:05:00+00:00"
+      "published": "2026-11-26T04:05:00+00:00",
+      "title_pl": "Droga Mleczna nad Lençóis na astronomicznym zdjęciu dnia",
+      "summary_pl": "Serwis Astronomy Picture of the Day opublikował zdjęcie przedstawiające Drogę Mleczną nad Lençóis z 26 listopada 2026 roku. Fotografii towarzyszy krótki opis przygotowany przez astronoma."
     },
     {
       "title": "Seeking Refuge on Resolution Island",
       "link": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
       "summary": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.",
-      "published": "2026-11-26T05:01:00+00:00"
+      "published": "2026-11-26T04:01:00+00:00",
+      "title_pl": "Walka o ochronę ptaków na nowozelandzkiej wyspie Resolution Island",
+      "summary_pl": "Nowozelandczycy próbują stworzyć na wyspie Resolution bezpieczne środowisko dla rodzimych ptaków, wolne od drapieżników. Zadanie utrudniają jednak gronostaje, które potrafią tam dopłynąć."
     },
     {
       "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
       "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
       "summary": "How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Supplier Development Program. As part of the program, NASA announced its latest Mentor-Protégé Agreement, this one signed between The Boeing Company and GRACE […]",
-      "published": "2026-11-25T19:06:56+00:00"
+      "published": "2026-11-25T18:06:56+00:00",
+      "title_pl": "NASA rozwija program wsparcia dla małych dostawców",
+      "summary_pl": "NASA wzmacnia krajowy przemysł lotniczy i kosmiczny w celu wsparcia przyszłych misji badawczych. W ramach programu współpracy podpisano nową umowę partnerską między firmami The Boeing Company i GRACE."
     },
     {
       "title": "NASA Eyes Crop Candidates for Future Menus",
       "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
       "summary": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in deep space, something top of mind this week as the nation celebrates Thanksgiving. Recent testing points to strawberries, […]",
-      "published": "2026-11-25T17:53:42+00:00"
-    },
-    {
-      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
-      "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
-      "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
-      "published": "2026-11-25T16:47:29+00:00"
-    },
-    {
-      "title": "Eye of the Sahara",
-      "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
-      "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
-      "published": "2026-11-25T16:21:04+00:00"
-    },
-    {
-      "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
-      "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
-      "published": "2026-11-25T14:56:54+00:00"
+      "published": "2026-11-25T16:53:42+00:00",
+      "title_pl": "NASA bada uprawy roślin dla astronautów misji kosmicznych",
+      "summary_pl": "Badacze z NASA analizują różne gatunki roślin, które dostarczą świeżą żywność astronautom podczas misji na Księżyc i Marsa. Niedawne testy wskazują, że wśród badanych upraw znajdują się m.in. truskawki."
     }
   ]
 }
