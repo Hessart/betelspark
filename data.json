@@ -1,177 +1,153 @@
 {
-  "updated": "2026-11-27T18:21:44.835350+00:00",
+  "updated": "2026-11-28T17:03:51.649364+00:00",
   "ai": [
+    {
+      "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+      "link": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+      "summary": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+      "published": "2026-11-28T14:00:00+00:00",
+      "title_pl": "Japońskie modele AI od Sakana AI mają wzmocnić konkurencyjność przemysłu",
+      "summary_pl": "Sakana AI dąży do wzmocnienia konkurencyjności japońskiego przemysłu za pomocą autorskich modeli sztucznej inteligencji. Ich znaczenie wykracza poza same kwestie bezpieczeństwa narodowego."
+    },
     {
       "title": "Our 2027 Innovators Under 35 competition is now open",
       "link": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
       "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations. We’re on the hunt for researchers and founders who are engineering solutions to some of…",
       "published": "2026-11-27T10:48:47+00:00",
-      "title_pl": "Rozpoczęto przyjmowanie zgłoszeń do konkursu Innovators Under 35 na rok 2027",
-      "summary_pl": "Redakcja MIT Technology Review poszukuje młodych naukowców, przedsiębiorców i wynalazców. Ruszyło oficjalne przyjmowanie zgłoszeń do tegorocznej edycji konkursu."
+      "title_pl": "Ruszyły zgłoszenia do konkursu Innovators Under 35 na rok 2027",
+      "summary_pl": "Rozpoczął się oficjalny nabór zgłoszeń do edycji 2027 konkursu organizowanego przez MIT Technology Review. Redakcja szuka 35 wybitnych młodych naukowców, przedsiębiorców i wynalazców z całego świata."
     },
     {
       "title": "How cutting-edge prosthetics can help probe the human mind",
       "link": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
       "summary": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s also taking…",
       "published": "2026-11-27T10:00:00+00:00",
-      "title_pl": "Nowoczesne protezy pomagają badać ludzki umysł",
-      "summary_pl": "Alexander Davidson wykorzystuje własne doświadczenia po ciężkim urazie w pracy terapeuty. Rozmawia o tym, jak zaawansowane protezy pomagają zrozumieć psychikę."
+      "title_pl": "Jak nowoczesne protezy pomagają w badaniu ludzkiego umysłu",
+      "summary_pl": "Alexander Davidson, który w młodości został sparaliżowany i stracił rękę, wykorzystuje własne doświadczenia w pracy terapeuty traumy. Jego historia pokazuje, jak zaawansowane protezy mogą wspierać badanie ludzkiego umysłu."
     },
     {
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
       "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
       "published": "2026-11-26T20:03:54+00:00",
-      "title_pl": "Nvidia wstrzymuje dostawy chipów do Azji Południowo-Wschodniej",
-      "summary_pl": "Nvidia nakazała partnerom produkcyjnym wstrzymanie wysyłki serwerów do Malezji, Singapuru, Tajlandii i Indonezji. To wynik działań USA mających na celu zablokowanie dostępu do chipów AI w Chinach."
-    },
-    {
-      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
-      "published": "2026-11-26T16:00:00+00:00",
-      "title_pl": "Grand Theft Auto VI pokazuje, że wydajność nie jest najważniejsza",
-      "summary_pl": "W dniu wejścia firmy Anthropic na giełdę, wyjątkowo dopracowana gra wideo stała się jednym z największych sukcesów rozrywkowych w historii. Pokazuje to, że tradycyjne podejście nadal ma ogromną wartość."
-    },
-    {
-      "title": "The next generation of bionic hands is here—and they can feel",
-      "link": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
-      "summary": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects…",
-      "published": "2026-11-26T09:59:00+00:00",
-      "title_pl": "Nowa generacja bionicznych rąk potrafi odczuwać dotyk",
-      "summary_pl": "Zaawansowana proteza została połączona z nerwami przedramienia, co pozwala odczuwać nacisk. Dzięki temu użytkownik może po latach ponownie chwytać delikatne przedmioty."
-    },
-    {
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
-      "published": "2026-11-25T22:44:32+00:00",
-      "title_pl": "Agencja S&P rozważa obniżenie wiarygodności kredytowej Nvidias",
-      "summary_pl": "Agencja ratingowa może obniżyć ocenę kredytową Nvidias do poziomu AA-. Wynika to z obaw o ład korporacyjny oraz ryzyko związane z kluczowymi pracownikami."
-    },
-    {
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "published": "2026-11-25T20:03:27+00:00",
-      "title_pl": "OpenAI łączy czat z pracą i ostrzega przed limitami",
-      "summary_pl": "OpenAI wprowadza jeden licznik zużycia dla ChatGPT w ramach łączenia funkcji czatu oraz pracy. Aktywni użytkownicy mogą przez to szybciej natrafić na limity."
+      "title_pl": "Nvidia wstrzymuje dostawy serwerów i układów do Azji Południowo-Wschodniej",
+      "summary_pl": "Firma Nvidia nakazała partnerom wstrzymanie wysyłek serwerów do Malezji, Singapuru, Tajlandii oraz Indonezji. Jest to związane z zaostrzeniem przez USA działań mających zapobiec trafianiu układów AI do Chin."
     }
   ],
   "tech": [
     {
-      "title": "Here are the best Black Friday deals you can grab for $30 or less",
+      "title": "Here’s what other Verge readers bought during Black Friday",
+      "link": "https://www.theverge.com/gadgets/1045251/what-verge-readers-bought-black-friday",
+      "summary": "We’ve covered a lot of deals so far that we think are fantastic during Black Friday, but readers gravitated to some more than others. Price plays a major factor, unsurprisingly, but for the holidays, some people care more about novelty above all else. They just want to gift something cool (or get something nice for […]",
+      "published": "2026-11-28T16:17:05+00:00",
+      "title_pl": "Co czytelnicy The Verge kupowali najchętniej podczas Black Friday",
+      "summary_pl": "Podczas Black Friday czytelnicy wybierali niektóre oferty chętniej niż inne. Główną rolę grała cena, ale dla wielu liczyła się też oryginalność i chęć kupienia ciekawego prezentu."
+    },
+    {
+      "title": "Police reportedly turn water cannons on protesters outside Meta offices in India",
+      "link": "https://www.theverge.com/tech/1045256/indian-police-reportedly-turn-water-cannons-on-protesters-outside-meta-offices",
+      "summary": "Police in the Indian state of Haryana turned water cannons on protesters from the opposition Congress party outside Meta's offices, according to Reuters. The protests are just the latest from the party's youth wing, which has accused Meta of bowing to pressure from Prime Minister Narendra ​Modi's Bharatiya Janata Party (BJP) and censoring Congress party […]",
+      "published": "2026-11-28T16:04:47+00:00",
+      "title_pl": "Policja w Indiach użyła armatek wodnych wobec protestujących pod biurem Meta",
+      "summary_pl": "W indyjskim stanie Haryana policja użyła armatek wodnych przeciwko protestującym z młodzieżówki Partii Kongresowej przed biurami firmy Meta. Młodzież oskarża serwis o uleganie naciskom rządzącej partii i cenzurowanie treści politycznych."
+    },
+    {
+      "title": "Almost every great Black Friday deal is still happening this weekend",
+      "link": "https://www.theverge.com/gadgets/1045110/best-black-friday-still-happening-2026-deals-tech-gadgets-gift-ideas",
+      "summary": "Black Friday has passed, but that doesn’t mean you missed out. Far from it. Almost all of the same deals from yesterday are still available, but some retailers plan to end theirs once the clock turns to early Sunday morning. True, expired deals you had your eye on are likely to return for Cyber Monday, […]",
+      "published": "2026-11-28T15:17:57+00:00",
+      "title_pl": "Większość świetnych okazji z Black Friday wciąż trwa w ten weekend",
+      "summary_pl": "Choć Black Friday minął, niemal wszystkie promocje są nadal dostępne przez weekend. Niektórzy sprzedawcy planują jednak zakończyć swoje wyprzedaże w niedzielę rano."
+    },
+    {
+      "title": "Kodak’s adorable Charmera keychain camera is on sale for just $30",
+      "link": "https://www.theverge.com/gadgets/1044917/kodak-charmera-keychain-digital-camera-black-friday-deal-sale-2026",
+      "summary": "We wouldn’t normally recommend a bad camera, but we’ll make an exception for the Kodak Charmera. As my colleague Andrew Liszewski pointed out in his review, the tiny retro keychain camera takes pretty lackluster photos, yet it’s charming enough that he kept using it anyway. That makes it a great gift for anyone who loves […]",
+      "published": "2026-11-28T15:13:51+00:00",
+      "title_pl": "Brelok z aparatem Kodak Charmera przeceniony na 30 dolarów",
+      "summary_pl": "Niewielki aparat w stylu retro Kodak Charmera można kupić w promocji za 30 dolarów. Choć robi przeciętne zdjęcia, jego uroczy wygląd sprawia, że to świetny pomysł na prezent."
+    },
+    {
+      "title": "Here are the best Black Friday deals you can still grab for $30 or less",
       "link": "https://www.theverge.com/gadgets/1039645/black-friday-best-cheap-tech-deals-under-30-2026",
-      "summary": "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug will let you control the Christmas tree lights from your phone. You […]",
-      "published": "2026-11-27T17:30:00+00:00",
-      "title_pl": "Najlepsze promocje na Czarny Piątek w cenie do 30 dolarów",
-      "summary_pl": "Nawet przy rosnących cenach gadżetów można znaleźć ciekawe okazje do 30 dolarów. Przykładem jest inteligentna wtyczka TP-Link przeceniona na 8 dolarów."
+      "summary": "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug lets you control your Christmas tree lights from your phone. You can […]",
+      "published": "2026-11-28T14:03:00+00:00",
+      "title_pl": "Najlepsze okazje technologiczne z Black Friday do 30 dolarów",
+      "summary_pl": "Mimo rosnących cen gadżetów, kwota 30 dolarów wciąż pozwala na zakup przydatnego sprzętu. Za 8 dolarów można kupić inteligentną wtyczkę TP-Link Tapo, która umożliwia sterowanie oświetleniem choinki z telefonu."
     },
     {
-      "title": "The absolute best Black Friday deals we’ve found (so far)",
-      "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-      "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had […]",
-      "published": "2026-11-27T17:07:08+00:00",
-      "title_pl": "Najlepsze oferty na Czarny Piątek – przegląd okazji",
-      "summary_pl": "Wystartowały wyprzedaże na Czarny Piątek w sklepach stacjonarnych i internetowych. W niższych cenach można kupić gry, słuchawki, telewizory czy roboty sprzątające."
+      "title": "The Alexa Photo Frame is the Echo Show without the bits you hate",
+      "link": "https://www.theverge.com/tech/1043764/amazon-alexa-photo-frame-review",
+      "summary": "I have to face facts: I'm a digital hoarder. My son graduated high school this year, and to mark the occasion, I made him a scrapbook of his 12 years of school. He loved it, but one reaction surprised me: He said he'd never seen most of these photos. Unlike my childhood - documented in […]",
+      "published": "2026-11-28T14:00:00+00:00",
+      "title_pl": "Cyfrowa ramka na zdjęcia z obsługą Alexy zastępuje tradycyjne albumy",
+      "summary_pl": "Przygotowanie papierowego albumu ze zdjęciami ujawniło, jak wiele cyfrowych pamiątek pozostaje niewidzianych przez dzieci. Cyfrowa ramka z obsługą Alexy pozwala łatwiej wyświetlać zgromadzone fotografie."
     },
     {
-      "title": "The best Black Friday deals on AirPods, MacBooks, and other Apple gear",
-      "link": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
-      "summary": "Black Friday is one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised the cost of some of its most popular gear. Some […]",
-      "published": "2026-11-27T16:30:37+00:00",
-      "title_pl": "Najlepsze promocje na AirPods, MacBooki i inny sprzęt Apple",
-      "summary_pl": "Czarny Piątek to świetny moment na tańszy zakup słuchawek AirPods lub zegarków Apple Watch. Zniżki pomagają zrekompensować wcześniejsze podwyżki cen."
-    },
-    {
-      "title": "You can grab a 12-pack of Zepath’s rechargeable AA batteries for just $24",
-      "link": "https://www.theverge.com/gadgets/1043272/zepath-rechargeable-aa-batteries-black-friday-2026-deal-sale",
-      "summary": "If you’re picking up any gifts that require AA batteries, it’s not a bad idea to buy a set you can keep using long after the holidays. Thankfully, you can currently get a 12-pack of Zepath’s rechargeable 3,000mWh AAs on Amazon with a charger for $23.99 ($8 off) for Black Friday, which is a new […]",
-      "published": "2026-11-27T15:30:00+00:00",
-      "title_pl": "Zestaw akumulatorków Zepath w niższej cenie na Czarny Piątek",
-      "summary_pl": "Na Amazonie można kupić 12-paki akuamulatorków AA marki Zepath wraz z ładowarką taniej o 8 dolarów. To dobra okazja na zakup trwałego zasilania do świątecznych prezentów."
-    },
-    {
-      "title": "Apple’s AirPods Pro 3 are a whopping $100 off for Black Friday",
-      "link": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale",
-      "summary": "The AirPods Pro 3 are cheaper than ever. Despite receiving an early discount last week, Apple’s latest flagship wireless earbuds are still on sale for just $149 at Amazon, Best Buy, and Walmart. They originally sold for $249, but are commonly available for $199 outside major deal events. The best price that we’ve previously seen […]",
-      "published": "2026-11-27T15:15:28+00:00",
-      "title_pl": "Słuchawki AirPods Pro 3 tańsze o 100 dolarów z okazji Czarnego Piątku",
-      "summary_pl": "Najnowsze bezprzewodowe słuchawki Apple osiągnęły najniższą cenę w historii. W sklepach Amazon, Best Buy i Walmart można je kupić za 149 dolarów."
-    },
-    {
-      "title": "Buying a laptop right now is rough, but these Black Friday deals help",
-      "link": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026",
-      "summary": "Laptop prices have been a hot-button topic all year long thanks to RAMageddon. We’ve seen existing models get more expensive and new models arrive at higher prices than last-gen — sometimes with lower specs, too. 2026 in general has been a bad time to buy a computer. But thankfully, Black Friday can offer a tiny […]",
-      "published": "2026-11-27T14:30:00+00:00",
-      "title_pl": "Zakup laptopa jest trudny, ale oferty na Czarny Piątek pomagają",
-      "summary_pl": "Wysokie ceny pamięci RAM sprawiły, że obecny rok był wyjątkowo niekorzystny dla kupujących komputery. Promocje na Czarny Piątek pozwalają jednak nieco zaoszczędzić."
-    },
-    {
-      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
-      "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
-      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
-      "published": "2026-11-27T14:00:00+00:00",
-      "title_pl": "Widżety na Androida pozwalają na odrobinę zabawy z kodowaniem",
-      "summary_pl": "Autor potrzebuje prostego widżetu, który w czasie rzeczywistym pokaże godziny przyjazdów autobusów w pobliżu domu. Zamiast otwierać aplikację, woli szybki podgląd na ekranie."
+      "title": "Here’s how to make that new Black Friday TV look its best",
+      "link": "https://www.theverge.com/tech/1042700/change-these-tv-settings",
+      "summary": "It's the season of great deals on TVs. But once you get a new one home and set it up in your living room, it might not meet expectations when you turn it on. Maybe it's overly bright, or things just look… off. Luckily, there are some easy tweaks you can make so that new, […]",
+      "published": "2026-11-28T13:00:00+00:00",
+      "title_pl": "Jak dostosować ustawienia nowego telewizora kupionego w promocji",
+      "summary_pl": "Nowo zakupiony telewizor po włączeniu w domu może mieć zbyt jasny obraz lub nieoptymalne kolory. Kilka prostych zmian w ustawieniach pozwala uzyskać znacznie lepszą jakość wyświetlanego obrazu."
     }
   ],
   "kosmos": [
+    {
+      "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+      "summary": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP […]",
+      "published": "2026-11-28T05:05:00+00:00",
+      "title_pl": "Astronomiczne zdjęcie dnia z 28 listopada 2026 roku: Apollo 17",
+      "summary_pl": "Serwis APOD zaprezentował zdjęcie anaglifowe miejsca lądowania misji Apollo 17. Każdego dnia na stronie publikowana jest inna fotografia kosmosu wraz z krótkim opisem od astronoma."
+    },
     {
       "title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
       "link": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
       "summary": "Paris, France | November 2026 — Novaspace’s Space Defense & Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025, reflecting […] The post Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates appeared first on SpaceNews .",
       "published": "2026-11-27T15:35:22+00:00",
-      "title_pl": "Rządowe inwestycje w obronność kosmiczną wyniosły 71,8 miliarda dolarów",
-      "summary_pl": "Z raportu Novaspace wynika, że rządy na całym świecie przeznaczyły ogromne środki na działania związane z obronnością w kosmosie. Świadczy to o przyspieszającej militarizacji przestrzeni kosmicznej."
+      "title_pl": "Rządy przeznaczyły 71,8 miliarda dolarów na obronność kosmiczną",
+      "summary_pl": "Według raportu firmy Novaspace w 2025 roku rządy zainwestowały na całym świecie około 71,8 miliarda dolarów w obronność i bezpieczeństwo w kosmosie. Dane te wskazują na postępującą militaryzację przestrzeni kosmicznej."
     },
     {
       "title": "Artemis III Astronaut Andre Douglas Visits VAB",
       "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
       "summary": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion […]",
       "published": "2026-11-27T15:01:00+00:00",
-      "title_pl": "Astronauta misji Artemis III Andre Douglas odwiedził budynek montażowy",
-      "summary_pl": "Specjalista misji Artemis III oglądał silnik RS-25 w Kennedy Space Center na Florydzie. To właśnie cztery takie silniki napędzą rakietę SLS."
+      "title_pl": "Astronauta misji Artemis III Andre Douglas odwiedził budynek VAB",
+      "summary_pl": "Astronauta NASA Andre Douglas odwiedził budynek montażu pojazdów kosmicznych w Centrum Kosmicznym im. Kennedy'ego na Florydzie. Podczas przyszłej misji Artemis III cztery silniki RS-25 posłużą do wyniesienia rakiety SLS z kapsułą Orion."
     },
     {
       "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
       "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
       "summary": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human health. Groundbreaking […]",
       "published": "2026-11-27T14:22:00+00:00",
-      "title_pl": "Misja NG-25 NASA dostarczy na stację kosmiczną badania nad uprawami",
-      "summary_pl": "Statek kosmiczny dostarczy na Międzynarodową Stację Kosmiczną nowy system uprawy roślin w kosmosie. Badania pomogą w rozwoju przyszłych misji oraz poprawie życia na Ziemi."
+      "title_pl": "Misja NASA NG-25 dostarczy na ISS badania nad uprawami kosmicznymi",
+      "summary_pl": "Na Międzynarodową Stację Kosmiczną trafi pionierski system uprawy roślin kosmicznych w ramach 25. misji zaopatrzeniowej firmy Northrop Grumman. Badania te mają przynieść korzyści dla życia na Ziemi oraz wspomóc przyszłą eksplorację kosmosu."
     },
     {
       "title": "APOD: 2026 November 27 – The Moon Watchers",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
       "summary": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers […]",
       "published": "2026-11-27T05:05:00+00:00",
-      "title_pl": "Zdjęcie Dnia w Astronimii przedstawia miłośników obserwacji Księżyca",
-      "summary_pl": "Codzienna rubryka astronomiczna prezentuje fascynujące zdjęcie kosmosu wraz z wyjaśnieniem przygotowanym przez profesjonalnego astronoma."
+      "title_pl": "Astronomiczne zdjęcie dnia z 27 listopada 2026 roku: Obserwatorzy Księżyca",
+      "summary_pl": "Kolejna odsłona serwisu APOD przedstawia fotografię pod tytułem \"Obserwatorzy Księżyca\". Projekt każdego dnia przybliża pasjonatom inną wyjątkową ilustrację kosmosu opatrzoną fachowym komentarzem."
     },
     {
       "title": "Shivelyuch Socked In",
       "link": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
       "summary": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
       "published": "2026-11-27T05:01:00+00:00",
-      "title_pl": "Wulkan Szywelucz spowity chmurami",
-      "summary_pl": "Warstwa chmur otoczyła zbocza wulkanu na Półwyspie Kamczatka, pozostawiając w widoku jego aktywną kalderę szczytową."
+      "title_pl": "Wulkan Szywełucz na Kamczatce spowity chmurami",
+      "summary_pl": "Warstwa chmur otoczyła zbocza wulkanu Szywełucz na Półwyspie Kamczatka. Przez chmury widoczna pozostała jedynie aktywna kaldera na jego szczycie."
     },
     {
       "title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
       "link": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
       "summary": "In this episode, Mike Gruss speaks with journalist and best-selling author Tim Marshall. They discuss how the war in Ukraine represented a wakeup call for how Europe and the United […] The post The ‘bare-knuckled’ future of life in space with Tim Marshall appeared first on SpaceNews .",
       "published": "2026-11-26T17:53:00+00:00",
-      "title_pl": "Bezwzględna przyszłość życia w kosmosie w rozmowie z Timem Marshallem",
-      "summary_pl": "W podcaście autor rozmawia z pisarzem o tym, jak wojna w Ukrainie zmieniła podejście Europy i świata do bezpieczeństwa. Poruszono również temat przyszłości działań w przestrzeni kosmicznej."
-    },
-    {
-      "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
-      "summary": "APOD Science APOD APOD: 2026 November 26 – Eye… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Eye in […]",
-      "published": "2026-11-26T05:05:00+00:00",
-      "title_pl": "Droga Mleczna nad Lençóis na zdjęciu dnia NASA",
-      "summary_pl": "Codzienna publikacja astronomiczna ukazuje piękne zdjęcie naszej galaktyki wiszącej nad regionem Lençóis, opatrzone komentarzem naukowym."
+      "title_pl": "Dziennikarz Tim Marshall o przyszłości życia i rywalizacji w kosmosie",
+      "summary_pl": "Mike Gruss rozmawiał z dziennikarzem i pisarzem Timem Marshallem o przyszłości ludzkości w przestrzeni kosmicznej. W dyskusji poruszono między innymi wpływ wojny w Ukrainie na podejście Europy i innych krajów do kwestii bezpieczeństwa."
     }
   ]
 }
